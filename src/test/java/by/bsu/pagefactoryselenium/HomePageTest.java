@@ -26,7 +26,6 @@ public class HomePageTest {
     @Test
     public void shouldSuggestedTextChangedToEnglishLangWhenEnglishClicked() {
         HomePage action = PageFactory.initElements(driver, HomePage.class);
-        Thread.sleep(5000);
         action.clickEnglishButton();
         String message = action.getSelectedMessageToCheckLang();
         Assert.assertEquals(SPECIAL_OFFER_TEXT, message);
