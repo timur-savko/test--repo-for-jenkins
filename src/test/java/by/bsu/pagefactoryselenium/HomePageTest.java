@@ -26,11 +26,7 @@ public class HomePageTest {
     @Test
     public void shouldSuggestedTextChangedToEnglishLangWhenEnglishClicked() {
         HomePage action = PageFactory.initElements(driver, HomePage.class);
-        try {
-            Thread.sleep(100000);
-        }catch (Exception ex){
-            System.out.print(ex.getMessage());
-        }
+        Thread.sleep(5000);
         action.clickEnglishButton();
         String message = action.getSelectedMessageToCheckLang();
         Assert.assertEquals(SPECIAL_OFFER_TEXT, message);
@@ -71,11 +67,7 @@ public class HomePageTest {
     public void shouldReturnInputDisabledWhenOneWayBtnClicked() {
         HomePage action = PageFactory.initElements(driver, HomePage.class);
 //        action.openBookingForm();
-        try {
-            Thread.sleep(5000);
-        }catch (Exception ex){
-            System.out.print(ex.getMessage());
-        }
+        Thread.sleep(100000);
         action.chooseOneWayFlightType();
         Assert.assertTrue(action.getIsReturnDateInputInactive());
     }
@@ -84,11 +76,7 @@ public class HomePageTest {
     public void shouldCannotBookAFlightWithoutValues() {
         HomePage action = PageFactory.initElements(driver, HomePage.class);
         action.openBookingForm();
-        try {
-            Thread.sleep(5000);
-        }catch (Exception ex){
-            System.out.print(ex.getMessage());
-        }
+        Thread.sleep(100000);
         action.chooseFromCountry();
         action.clickBookAFlightInFormBtn();
         Assert.assertTrue(!action.getIsDepCountryThrowError());
