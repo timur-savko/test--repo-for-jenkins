@@ -27,7 +27,7 @@ public class HomePageTest {
     public void shouldSuggestedTextChangedToEnglishLangWhenEnglishClicked() {
         HomePage action = PageFactory.initElements(driver, HomePage.class);
         try {
-            Thread.sleep(5000);
+            Thread.sleep(100000);
         }catch (Exception ex){
             System.out.print(ex.getMessage());
         }
