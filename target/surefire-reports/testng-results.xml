@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11803" started-at="2019-01-03T11:38:33Z" finished-at="2019-01-03T11:38:45Z">
+    <groups>
+    </groups>
+    <test name="ФiralgerieTest" duration-ms="11803" started-at="2019-01-03T11:38:33Z" finished-at="2019-01-03T11:38:45Z">
+      <class name="by.bsu.pagefactoryselenium.Driver">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:by.bsu.pagefactoryselenium.Driver@3b81a1bc]" name="setupDriver" is-config="true" duration-ms="3742" started-at="2019-01-03T11:38:29Z" finished-at="2019-01-03T11:38:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:by.bsu.pagefactoryselenium.Driver@3b81a1bc]" name="quitDriver" is-config="true" duration-ms="137" started-at="2019-01-03T11:38:45Z" finished-at="2019-01-03T11:38:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- by.bsu.pagefactoryselenium.Driver -->
+      <class name="by.bsu.pagefactoryselenium.HomePageTest">
+        <test-method status="PASS" signature="setupPage()[pri:0, instance:by.bsu.pagefactoryselenium.HomePageTest@64616ca2]" name="setupPage" is-config="true" duration-ms="2667" started-at="2019-01-03T11:38:33Z" finished-at="2019-01-03T11:38:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method status="PASS" signature="shouldBookingFormOpenedAfterClickingOpenButton()[pri:0, instance:by.bsu.pagefactoryselenium.HomePageTest@64616ca2]" name="shouldBookingFormOpenedAfterClickingOpenButton" duration-ms="204" started-at="2019-01-03T11:38:35Z" finished-at="2019-01-03T11:38:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBookingFormOpenedAfterClickingOpenButton -->
+        <test-method status="PASS" signature="shouldCookiesBannerClosedWhenTheyAccepted()[pri:0, instance:by.bsu.pagefactoryselenium.HomePageTest@64616ca2]" name="shouldCookiesBannerClosedWhenTheyAccepted" duration-ms="163" started-at="2019-01-03T11:38:36Z" finished-at="2019-01-03T11:38:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldCookiesBannerClosedWhenTheyAccepted -->
+        <test-method status="PASS" signature="shouldManageFormOpenedAfterClickingOpenButton()[pri:0, instance:by.bsu.pagefactoryselenium.HomePageTest@64616ca2]" name="shouldManageFormOpenedAfterClickingOpenButton" duration-ms="239" started-at="2019-01-03T11:38:36Z" finished-at="2019-01-03T11:38:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldManageFormOpenedAfterClickingOpenButton -->
+        <test-method status="PASS" signature="shouldReturnInputBecomesActiveWhenTwoWayBtnClicked()[pri:0, instance:by.bsu.pagefactoryselenium.HomePageTest@64616ca2]" name="shouldReturnInputBecomesActiveWhenTwoWayBtnClicked" duration-ms="262" started-at="2019-01-03T11:38:36Z" finished-at="2019-01-03T11:38:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldReturnInputBecomesActiveWhenTwoWayBtnClicked -->
+        <test-method status="PASS" signature="shouldReturnInputDisabledWhenOneWayBtnClicked()[pri:0, instance:by.bsu.pagefactoryselenium.HomePageTest@64616ca2]" name="shouldReturnInputDisabledWhenOneWayBtnClicked" duration-ms="93" started-at="2019-01-03T11:38:36Z" finished-at="2019-01-03T11:38:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldReturnInputDisabledWhenOneWayBtnClicked -->
+        <test-method status="PASS" signature="shouldSubscribeFormThrowErrorWhenEnteredBadValue()[pri:0, instance:by.bsu.pagefactoryselenium.HomePageTest@64616ca2]" name="shouldSubscribeFormThrowErrorWhenEnteredBadValue" duration-ms="273" started-at="2019-01-03T11:38:36Z" finished-at="2019-01-03T11:38:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldSubscribeFormThrowErrorWhenEnteredBadValue -->
+        <test-method status="PASS" signature="shouldSuggestedTextChangedToEnglishLangWhenEnglishClicked()[pri:0, instance:by.bsu.pagefactoryselenium.HomePageTest@64616ca2]" name="shouldSuggestedTextChangedToEnglishLangWhenEnglishClicked" duration-ms="1828" started-at="2019-01-03T11:38:37Z" finished-at="2019-01-03T11:38:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldSuggestedTextChangedToEnglishLangWhenEnglishClicked -->
+        <test-method status="PASS" signature="shoudFormClosed()[pri:0, instance:by.bsu.pagefactoryselenium.HomePageTest@64616ca2]" name="shoudFormClosed" duration-ms="221" started-at="2019-01-03T11:38:39Z" finished-at="2019-01-03T11:38:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoudFormClosed -->
+        <test-method status="PASS" signature="shouldCannotBookAFlightWithoutValues()[pri:0, instance:by.bsu.pagefactoryselenium.HomePageTest@64616ca2]" name="shouldCannotBookAFlightWithoutValues" duration-ms="379" started-at="2019-01-03T11:38:39Z" depends-on-methods="by.bsu.pagefactoryselenium.HomePageTest.shouldBookingFormOpenedAfterClickingOpenButton" finished-at="2019-01-03T11:38:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldCannotBookAFlightWithoutValues -->
+        <test-method status="PASS" signature="shoudErrorMessageShownWhenBadValuesSetted()[pri:0, instance:by.bsu.pagefactoryselenium.HomePageTest@64616ca2]" name="shoudErrorMessageShownWhenBadValuesSetted" duration-ms="5422" started-at="2019-01-03T11:38:39Z" depends-on-methods="by.bsu.pagefactoryselenium.HomePageTest.shouldBookingFormOpenedAfterClickingOpenButton, by.bsu.pagefactoryselenium.HomePageTest.shouldSuggestedTextChangedToEnglishLangWhenEnglishClicked, by.bsu.pagefactoryselenium.HomePageTest.shouldSubscribeFormThrowErrorWhenEnteredBadValue, by.bsu.pagefactoryselenium.HomePageTest.shouldCannotBookAFlightWithoutValues, by.bsu.pagefactoryselenium.HomePageTest.shouldManageFormOpenedAfterClickingOpenButton, by.bsu.pagefactoryselenium.HomePageTest.shouldReturnInputDisabledWhenOneWayBtnClicked" finished-at="2019-01-03T11:38:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoudErrorMessageShownWhenBadValuesSetted -->
+      </class> <!-- by.bsu.pagefactoryselenium.HomePageTest -->
+    </test> <!-- ФiralgerieTest -->
+  </suite> <!-- Suite -->
+</testng-results>
