@@ -67,7 +67,6 @@ public class HomePageTest {
     public void shouldReturnInputDisabledWhenOneWayBtnClicked() {
         HomePage action = PageFactory.initElements(driver, HomePage.class);
 //        action.openBookingForm();
-        Thread.sleep(100000);
         action.chooseOneWayFlightType();
         Assert.assertTrue(action.getIsReturnDateInputInactive());
     }
@@ -76,7 +75,6 @@ public class HomePageTest {
     public void shouldCannotBookAFlightWithoutValues() {
         HomePage action = PageFactory.initElements(driver, HomePage.class);
         action.openBookingForm();
-        Thread.sleep(100000);
         action.chooseFromCountry();
         action.clickBookAFlightInFormBtn();
         Assert.assertTrue(!action.getIsDepCountryThrowError());
